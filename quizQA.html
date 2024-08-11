@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./QuizQA.css">
+    <title>Quiz-website</title>
+</head>
+<body>
+    <header>
+        <div class="heada-one">
+            <div class="logo">
+                <img src="./images/mylogo.png" alt="" class="quiz">
+            </div>
+            <div class="home">
+                <a href="./index.html" class="nav-home">Home</a>
+                <a href="./about.html" class="nav-home">About us</a>
+                <a href="./contact.html" class="nav-home">Contact us</a>
+            </div>
+            <div class="access">
+                <div class="dropdown">
+                    <a href="#" class="dropdown-btn">Login &#11163;</a>
+                    <div class="dropdown-content">
+                        <a href="./loginform.html">Student Login</a>
+                        <a href="#">Admin Login</a>
+                      </div>
+                </div>
+                <a href="./register.html" class="register">Register</a>
+            </div>
+            <div class="bar">
+                <i class="fa-solid fa-bars"></i>  
+            </div>
+        </div>
+    </header>
+    <section>
+         <div class="page1">
+                <h3>Welcome Immanuel to our QuizDrill page</h3>
+                <h4>Kindly select in the field and check the boxes</h4>
+         </div>
+        
+        <div class="browse">
+            <div>
+                <select name="category" id="category">
+                    <option value="#" disabled selected>Browse by category</option>
+                    <option value="#">Basic class</option>
+                    <option value="#">Higher class</option>
+                </select>
+                <input type="checkbox">
+
+            </div>
+            <div>
+                <select name="grade" id="grade">
+                    <option value="#" selected disabled>Browse by grade</option>
+                    <option value="#">Grade one</option>
+                    <option value="#">Grade two</option>
+                    <option value="#">Grade three</option>
+                    <option value="#">Grade four</option>
+                    <option value="#">Grade five</option>
+                    <option value="#">Grade six</option>
+                </select>
+                <input type="checkbox">
+            </div>
+            <div>
+                <select name="subject" id="subject">
+                    <option value="#" selected disabled>Browse by subject</option>
+                    <option value="#">English</option>
+                    <option value="#">Mathematics</option>
+                    <option value="#">Basic science</option>
+                    <option value="#">Security education</option>
+                    <option value="#">Chemistry</option>
+                    <option value="#">Physics</option>
+                    <option value="#">Biology</option>
+                    <option value="#">Fine Art</option>
+                    <option value="#">Geography</option>
+                </select>
+                <input type="checkbox">
+
+            </div>
+            <div>
+                <select name="topic" id="topic">
+                    <option value="#" disabled selected>Browse by topics</option>
+                    <option value="#">Human right</option>
+                    <option value="#">Algebra</option>
+                    <option value="#">Atoms and molecules</option>
+                    <option value="#">citizenship</option>
+                    <option value="#">Carbon and its compound</option>
+                    <option value="#">Projectile motion</option>
+                    <option value="#">Cell division</option>
+                    <option value="#">Painting</option>
+                    <option value="#">Map reading</option>
+                </select>
+                <input type="checkbox">
+            </div>
+        </div>
+        <div class="load-quiz">
+            <a href="#" class="load-anchor">Load Quiz</a>
+        </div>
+        <div class="multi-choice">
+            <h2>choose the correct option from the items listed</h2>
+        </div>
+        <div class="QandA">
+            <ol>
+                <li>Which organelle is known as the "powerhouse" of the cell?
+                </li>
+                <div class="answers">
+                    <div>
+                        <input type="checkbox"> <span>A Nucleus</span>
+                    </div>
+                    <div>
+                        <input type="checkbox"> <span>B Mitochondria</span>
+                    </div>
+                    <div>
+                        <input type="checkbox"> <span>C Endoplasmic reticulum</span>
+                    </div>
+                    <div>
+                        <input type="checkbox"> <span>D Golgi apparatus</span>
+                    </div>
+                </div>
+
+
+                <li>What is the process by which plants convert light energy into chemical energy?
+                </li>
+                <div class="answers">
+                    <div>
+                        <input type="checkbox"> <span>A Respiration</span>
+                    </div>
+                    <div>
+                        <input type="checkbox"> <span>B Fermentation
+                        </span>
+                    </div>
+                    <div>
+                        <input type="checkbox"> <span>C Photosynthesis</span>
+                    </div>
+                    <div>
+                        <input type="checkbox"> <span>D Transpiration</span>
+                    </div>
+                </div>
+
+                <li>Which of the following is NOT a nucleotide base found in DNA?
+                </li>
+                <div class="answers">
+                    <div>
+                        <input type="checkbox"> <span>A Adenine</span>
+                    </div>
+                    <div>
+                        <input type="checkbox"> <span>B Thymine</span>
+                    </div>
+                    <div>
+                        <input type="checkbox"> <span>C Uracil</span>
+                    </div>
+                    <div>
+                        <input type="checkbox"> <span>D Guanine</span>
+                    </div>
+                </div>
+
+                <li>What is the term for a group of similar organisms that can interbreed and produce fertile offspring?
+                </li>
+                <div class="answers">
+                    <div>
+                        <input type="checkbox"> <span>A  Genus
+                        </span>
+                    </div>
+                    <div>
+                        <input type="checkbox"> <span>B Family</span>
+                    </div>
+                    <div>
+                        <input type="checkbox"> <span>C Species
+                        </span>
+                    </div>
+                    <div>
+                        <input type="checkbox"> <span>D Order</span>
+                    </div>
+                </div>
+
+                <li>Which blood type is considered the universal donor?
+                </li>
+                <div class="answers">
+                    <div>
+                        <input type="checkbox"> <span>A  A</span>
+                    </div>
+                    <div>
+                        <input type="checkbox"> <span>B B</span>
+                    </div>
+                    <div>
+                        <input type="checkbox"> <span>C AB</span>
+                    </div>
+                    <div>
+                        <input type="checkbox"> <span>D O</span>
+                    </div>
+                </div>
+
+                <li>What is the largest organ in the human body?
+
+                </li>
+                <div class="answers">
+                    <div>
+                        <input type="checkbox"> <span>A  Liver</span>
+                    </div>
+                    <div>
+                        <input type="checkbox"> <span>B Brain
+                        </span>
+                    </div>
+                    <div>
+                        <input type="checkbox"> <span>C Skin
+                        </span>
+                    </div>
+                    <div>
+                        <input type="checkbox"> <span>D Heart</span>
+                    </div>
+                </div>
+
+                <li>Which of the following is an example of a prokaryotic organism?
+                </li>
+                <div class="answers">
+                    <div>
+                        <input type="checkbox"> <span>A Amoeba
+                        </span>
+                    </div>
+                    <div>
+                        <input type="checkbox"> <span>B Yeast</span>
+                    </div>
+                    <div>
+                        <input type="checkbox"> <span>C  E. coli bacteria
+                        </span>
+                    </div>
+                    <div>
+                        <input type="checkbox"> <span>D Paramecium</span>
+                    </div>
+                </div>
+
+                <li>What is the primary function of red blood cells?
+
+                </li>
+                <div class="answers">
+                    <div>
+                        <input type="checkbox"> <span>A Clotting</span>
+                    </div>
+                    <div>
+                        <input type="checkbox"> <span>B Fighting infections
+                        </span>
+                    </div>
+                    <div>
+                        <input type="checkbox"> <span>C Transporting oxygen
+                        </span>
+                    </div>
+                    <div>
+                        <input type="checkbox"> <span>D Producing antibodies</span>
+                    </div>
+                </div>
+
+                <li>Which of the following is NOT a function of the liver?
+                </li>
+                <div class="answers">
+                    <div>
+                        <input type="checkbox"> <span>A Detoxification
+                        </span>
+                    </div>
+                    <div>
+                        <input type="checkbox"> <span>B Protein synthesis</span>
+                    </div>
+                    <div>
+                        <input type="checkbox"> <span>C Bile production</span>
+                    </div>
+                    <div>
+                        <input type="checkbox"> <span>D Oxygen absorption</span>
+                    </div>
+                </div>
+
+                <li>What is the process by which DNA makes a copy of itself called?
+                </li>
+                <div class="answers">
+                    <div>
+                        <input type="checkbox"> <span>A Transcription</span>
+                    </div>
+                    <div>
+                        <input type="checkbox"> <span>B Translation</span>
+                    </div>
+                    <div>
+                        <input type="checkbox"> <span>C Replication
+                        </span>
+                    </div>
+                    <div>
+                        <input type="checkbox"> <span>D Mitosis</span>
+                    </div>
+                </div>
+               
+            </ol>
+            <div>
+                <a href="#" class="quiz-submit">Submit</a>
+            </div>
+
+        </div>
+    </section>
+   
+   
+</body>
+</html>

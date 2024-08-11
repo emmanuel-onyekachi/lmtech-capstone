@@ -1,0 +1,299 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.heada-one{
+    display: flex;
+    align-items: center;
+    gap: 22%;
+    background-color: #968a85c7;
+    width: 100%;
+    height: 110px;
+    .logo{
+        width: 19%; height: 100%;
+        margin-left: 8px;
+        .quiz{width: auto; height: 100%;}
+    }
+    .home{
+        display: flex;
+        gap: 10px;
+        a{
+            text-decoration:none;
+            padding: 10px;
+            color: white;
+            white-space: nowrap;
+            border-bottom: black
+        }
+        a:hover{
+            transform: scale(1.2); 
+        }
+    
+    }
+    .access{
+        width: auto; height: auto;
+        display: flex; align-items: center;
+       
+    }
+}
+
+}
+.dropdown {
+position: relative;
+display: inline-block;
+}
+.dropdown-btn{
+text-decoration: none;
+padding: 15px 30px;
+margin: 45px;
+background-color: #32296c;
+color: white;
+font-size: 15px;
+border-radius: 20px;
+border: none;  
+white-space: nowrap;
+}
+.dropdown-content{
+display: none;
+position: absolute;
+background-color: #f9f9f9;
+min-width: 160px;
+box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+z-index: 1;
+top: 35px;
+left: 23px;
+}
+.dropdown-content a {
+color: black;
+padding: 12px 16px;
+text-decoration: none;
+display: block;
+}
+.dropdown-content a:hover {background-color: #f1f1f1}
+.dropdown:hover .dropdown-content {
+display: block;
+}
+.login:hover{
+background-color: #01eae8;
+color: black;
+}
+.quiz{
+width: 45%;
+height: 100%;
+
+}
+.register{
+padding: 15px 30px;
+cursor: pointer;
+border: none;
+border-radius: 20px;
+background-color:#01eae8;
+font-size: 15px;
+color: black;
+text-decoration: none;
+}
+.register:hover{
+background-color:#32296c;
+color: white;
+}
+.bar{
+    width: auto; height: auto; margin: 10px 10px;
+   }
+   .fa-bars{
+    font-size: 30px;
+    display: none;
+}
+
+div.contact-header{
+    background-image: url(./images/istockphoto-15.webp);
+    background-repeat: no-repeat;
+    background-size:contain;
+    background-position: center;
+    width: 100%;
+    height: 400px;
+    background-color: #32296c;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact{
+    padding: 25px 70px;
+    cursor: pointer;
+    border: none;
+    border-radius: 20px;
+    background-color:black;
+    font-size: 15px;
+    color: white;
+    }
+    .contact:hover{
+    background-color:#32296c4d;
+    color: white;
+    }
+    .info{
+        width: 100%;
+        height: 200px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 20px 0px;
+        p{font-size: 25px; text-align: center; padding: 20px}
+        
+    }
+    .message{
+        width: 30%;
+        height: 1px;
+        margin: 50px auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 5px;
+        p{white-space: nowrap;}
+
+        hr{
+            width: 100px;
+        }
+    }
+    .insert-msg{
+        width: 70%;
+        border: 2px solid #32296c;
+        height: auto;
+        margin: 10px auto 50px;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        .first{
+            width: 100%;
+            display: flex;
+            div{width: 100%;
+                margin: 5px;
+            }
+    input,select{
+        width: 100%;
+        height: 30px;
+        border-radius: 10px;
+        padding-left: 10px;
+         }     
+       
+        }
+        textarea{
+            width: 100%;
+            height: 100px;
+            margin: 5px 0px 10px;
+            padding: 10px;
+        }
+        
+    }
+    .response{
+        width: 100%;
+        margin: 10px;
+        display: flex;
+        justify-content: center;
+        .feedback{
+            width: 100%;
+            padding: 10px;
+            margin-right: 15px;
+            background-color:#32296c;
+            border-radius: 10px;
+            border: none;
+            cursor: pointer;
+            color: white;
+            font-size: 16px;
+
+        }
+        .feedback:hover{
+            background-color: #01eae6f6;
+            color: black;
+        }
+    }
+    textarea::placeholder{
+        padding: 10px;
+    }
+    footer{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: repeat(1, minmax(100px, auto));
+        div{background-color: #32296c80;}
+        .foot-logo{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 10px;
+            img{width: 50%;}
+        }
+    }
+    .foot-text{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 15px;
+        div{
+            width: 100%; 
+            height: 150px; 
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            background-color: #9894b5;
+            h4{font-size: 20px;}
+            ul,li{font-size: 18px; list-style-type: none; background-color: #9894b5; display: flex; flex-direction: column; gap: 15px; cursor: pointer;}
+
+        }
+        
+    }
+
+    .copyright{
+        grid-column: 1/4;
+        display: grid;
+        justify-content: center;
+
+       
+     }
+     .foot-social{
+        padding: 40px;
+        h4{font-size: 20px;}
+        .social-icon a{
+            width: 80%;
+            display: flex;
+            flex-direction: column;
+            gap: 5px;
+            margin: 5px;
+            background-color: #9894b5;
+            img{width: 10%; margin: auto;}
+        }
+     }
+
+
+     @media screen and (width <=780px) {
+        .first{
+            flex-direction: column;
+           
+        }
+        .first>div{
+            width: 100%;
+        }
+        select, option{
+            width: 100%;
+        }
+        .insert-msg{
+            border-radius: 15px;
+        }
+     }
+
+     @media only screen and (width <= 760px) {
+        .heada-one>div:nth-child(2){
+            display: none;
+        }
+        .heada-one>div:nth-child(3){
+            display: none;
+        }
+        .fa-bars{
+            font-size: 30px;
+            display: block;
+            margin-left: 150px;
+            cursor: pointer;
+        }
+    }
+     
